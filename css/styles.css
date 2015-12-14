@@ -1,0 +1,98 @@
+@charset utf-8;
+/* CSS Document */
+body{
+	font-size: 1em;
+	text-align: center;
+	font-family: monaco, Consolas, 'Lucida Console', monospace;
+	background-color: #E6EBE0;
+}
+img{
+	width: 50%;
+	height:30em;
+}
+#bigimage{
+	width: 100%;
+	height:30em;
+}
+nav a{
+	text-decoration: none;
+
+}
+nav ul li {
+	display: inline;
+}
+ul li{
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+a{
+	text-decoration: none;
+	text-align: center;
+	color: #000;
+}
+a:hover{
+	color: #ED6A5A;
+}
+.nav{
+	width: 80%;
+	margin-left: 10%;
+	margin-right: 10%;
+	float: left;
+	display: inline;
+	background-color: #9BC1BC;
+}
+.wrapper{
+	width: 80%;
+	margin-left: 10%;
+	margin-right: 10%;
+	float: left;
+	background-color: #5CA4A9;
+}
+#icons{
+	height: 1.5em;
+	width: 1.5em;
+}
+#pen{
+	width: 20em;
+	height: auto;
+}
+#hub{
+	width:20em;
+	height: auto;
+}
+label{
+	display: block;
+	margin-top: 1em;
+	text-align: center;
+}
+
+footer{
+	width: 80%;
+	margin-left: 10%;
+	margin-right: 10%;
+	float: left;
+	display: inline;
+	background-color: #9BC1BC;
+}
+footer p{
+	display: inline;
+}
+@media only screen and (max-width: 1140px){
+body{
+	font-size: .8em;
+}
+}
+@media only screen and (max-width: 768px){
+body{
+	font-size: .6em;
+}
+img{
+	display: none;
+}
+}
+@media only screen and (max-width: 480px){
+	body{
+		font-size: .4em;
+	}
+}
